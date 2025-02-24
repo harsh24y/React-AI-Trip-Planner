@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./",
+      "paths": {
+        "@/*": ["src/*"]
+      }
+    },
+    "include": [
+      "src/**/*",
+      "vite.config.js",
+      "postcss.config.js"
+    ],
+    "exclude": ["node_modules"]
+  }
+  
